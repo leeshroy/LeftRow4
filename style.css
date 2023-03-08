@@ -1,0 +1,98 @@
+html {
+  color: black;
+  background: white;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+    margin: 0;
+    padding: 0
+}
+
+body{
+  text-align: center;
+  display: block;
+  margin: 8px;
+}
+
+#doc{
+  margin: auto;
+  text-align: left;
+  width: 56em;
+  min-width: 750px;
+}
+
+h1 {
+  color: blue;
+}
+
+#qst {
+  font-size: 24px;
+  background: mediumpurple;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: black;
+}
+
+#desc {
+  font-size: 18px;
+  background: white;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: black;
+}
+
+.boxHeader {
+  padding-bottom: 0.5em;
+  border: 1px solid;
+  zoom: 100%;
+  margin-bottom: 0.5em;
+}
+
+.classGroup{
+  background: white;
+}
+
+.boxHorizontal{
+  background: mediumpurple;
+  zoom: 100%;
+  position: relative;
+  padding-left: 0.5em;
+  line-height: 2em;
+}
+
+#filterA{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 0.25em;
+}
+
+div {
+  display: block;
+}
+
+.boxInsides {
+  text-align: center;
+  padding: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0;
+  line-height: 130%;
+}
+
+.col {
+  text-align: left;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  width: 12em;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  list-style: none;
+  display: list-item;
+}
+
